@@ -11,7 +11,7 @@
   "theme": {
     "backgroundColor": [100, 100, 100],
     "textColor": [210, 210, 210],
-    "fontLocation": "CourierNewBold.ttf",
+    "fontLocation": "assets\\CourierNewBold.ttf",
     "bigFontSize": 60,
     "fontSize": 40,
     "smallFontSize": 15
