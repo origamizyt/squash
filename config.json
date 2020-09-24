@@ -1,0 +1,22 @@
+{
+  "game": {
+    "name": "Squash",
+    "version": "1.0",
+    "developer": "zhaoyitong"
+  },
+  "screen": {
+    "size": [960, 640],
+    "fullscreen": false
+  },
+  "theme": {
+    "backgroundColor": [100, 100, 100],
+    "textColor": [210, 210, 210],
+    "fontLocation": "CourierNewBold.ttf",
+    "bigFontSize": 60,
+    "fontSize": 40,
+    "smallFontSize": 15
+  },
+  "layout": {
+    "textOffset": 50
+  }
+}
