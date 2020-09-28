@@ -264,7 +264,7 @@ class Game:
     def __init__(self):
         self.started = False
         db = shelve.open(config.objects.database)
-        self.level = int(db['level'])
+        self.level = int(db.get('level', 1))
         db.close()
     def start(self):
         self.stage = Startup(self)
