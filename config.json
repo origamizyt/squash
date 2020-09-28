@@ -5,18 +5,32 @@
     "developer": "zhaoyitong"
   },
   "screen": {
-    "size": [960, 640],
-    "fullscreen": false
+    "size": [960, 720],
+    "fullscreen": false,
+    "textOffset": 50
   },
   "theme": {
-    "backgroundColor": [100, 100, 100],
-    "textColor": [210, 210, 210],
+    "backgroundColor": [255, 255, 255],
+    "textColor": [0, 0, 0],
     "fontLocation": "assets\\CourierNewBold.ttf",
     "bigFontSize": 60,
     "fontSize": 40,
     "smallFontSize": 15
   },
-  "layout": {
-    "textOffset": 50
+  "objects": {
+    "pumpkinImage": "assets\\pumpkin.png",
+    "victimImage": "assets\\victim.png",
+    "database": "storage"
+  },
+  "control": {
+    "preparation": 3,
+    "victimSpeed": 10,
+    "victimAcceleration": 0.5,
+    "initialSpeed": 10,
+    "acceleration": 1,
+    "pumpkinAmount": 10,
+    "interval": 1000,
+    "positionOffset": 100,
+    "levelCount": 20
   }
 }
